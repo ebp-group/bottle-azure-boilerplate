@@ -20,6 +20,10 @@ problem. We moved the static file handler in bottle to `route.py`.
 Now, as soon as you push a change to your GitHub repository, the change will be
 deployed directly to the Azure site.
 
-[bottle]: http://bottlepy.org [Azure documentation page]:
-https://azure.microsoft.com/en-us/documentation/articles/web-sites-python-create-deploy-bottle-app
-[Azure Portal]: http://portal.azure.com
+Sample site is <http://bottle-azure-boilerplate.azurewebsites.net/>
+
+  [bottle]: http://bottlepy.org
+
+  [Azure documentation page]: https://azure.microsoft.com/en-us/documentation/articles/web-sites-python-create-deploy-bottle-app
+
+  [Azure Portal]: http://portal.azure.com
