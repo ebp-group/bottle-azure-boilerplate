@@ -12,9 +12,14 @@ problem. We moved the static file handler in bottle to `route.py`.
 
 ## Usage
 
-See [Azure documentation page][] for details on how to run the development
-server and publish the site to Azure.
+1. Clone this repository.
+2. Create a "Web App" on [Azure Portal][]. Wait until the app is created.
+3. Click on the created app and click on the tile "Deployment". Then "Choose Source" -> "Github". Authorize Azure to access your GitHub account.
+4. Choose the repository. Wait until the initial version is deployed.
 
+Now, as soon as you push a change to your GitHub repository, the change will be
+deployed directly to the Azure site.
 
-[bottle]: http://bottlepy.org
-[Azure documentation page]: https://azure.microsoft.com/en-us/documentation/articles/web-sites-python-create-deploy-bottle-app
+[bottle]: http://bottlepy.org [Azure documentation page]:
+https://azure.microsoft.com/en-us/documentation/articles/web-sites-python-create-deploy-bottle-app
+[Azure Portal]: http://portal.azure.com

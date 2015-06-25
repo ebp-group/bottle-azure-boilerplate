@@ -3,6 +3,7 @@
 <div class="jumbotron">
     <h1>Bottle</h1>
     <p class="lead">Bottle is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p class="lead">This is a sample site to demonstrate the publication from Github, see <a href="https://github.com/ernstbaslerpartner/bottle-azure-boilerplate">code</a>.</p>
     <p><a href="http://bottlepy.org/docs/dev/index.html" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
 </div>
 
