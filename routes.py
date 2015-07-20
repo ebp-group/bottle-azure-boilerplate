@@ -2,8 +2,18 @@
 Routes and views for the bottle application.
 """
 
+import os
+import json
+
 from bottle import route, view, static_file
 from datetime import datetime
+
+
+config = { "secret_key" : "my developer secret value" }
+if os.getenv("MY_CONFIG"): # you can define the setting in your Azure Web App
+                           # by setting "MY_CONFIG" in the Appsettings.
+    config = json.loads(os.getenv("MY_CONFIG"))
+        
 
 @route('/static/<filepath:path>')
 def server_static(filepath):
@@ -18,7 +28,8 @@ def server_static(filepath):
 def home():
     """Renders the home page."""
     return dict(
-        year=datetime.now().year
+        year=datetime.now().year,
+        secret = config.get("secret_key")        
     )
 
 @route('/contact')
