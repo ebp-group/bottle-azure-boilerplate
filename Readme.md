@@ -9,6 +9,8 @@ repository is updated (a.k.a. continuous deployment, see also [Azure App Service
 The code is based on the Bottle template in the Azure Marketplace
 as described on this [Azure documentation page][] (2015-06-24).
 
+_Update_ : siehe auch https://docs.microsoft.com/en-us/azure/app-service-web/web-sites-python-create-deploy-bottle-app
+
 
 ## Usage
 
